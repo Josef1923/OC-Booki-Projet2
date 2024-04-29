@@ -316,7 +316,8 @@ li {
 }
 
 .footer ol {
-    padding: 0;
+    padding-left: 0;
+    margin-top: 5px;
 }
 .footer {
     display: flex;
@@ -328,7 +329,7 @@ li {
 }
 
 .footer h3 {
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
