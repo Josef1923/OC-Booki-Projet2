@@ -92,11 +92,17 @@ li {
 /****** Josef Trouver votre hébergement + Bouton de recherche***********/
 
 .trouvez-hebergement {
-    padding-top: 20px;
+    padding-top: 20px;    
+}
+
+.trouvez-hebergement h1 {
+    margin-bottom: 10px;
 }
 
 .trouvez-hebergement p {
    font-size: 1.1em;
+   margin-top: 0;
+   margin-bottom: 35px;
 }
 
 .bouton-rechercher {
@@ -162,7 +168,11 @@ li {
     font-weight: 600;
     height: 50px;
     border-radius: 30px;
-    padding: 0px 20px
+    padding: 0px 20px;
+}
+
+.bouton {
+    white-space: nowrap;
 }
 
 .mise-forme-filtre button:hover {
@@ -303,7 +313,7 @@ li {
 }
 
 .activites-cards .card-content {
-    margin-left: 10px;
+    margin-left: 15px;
     
 }
 
