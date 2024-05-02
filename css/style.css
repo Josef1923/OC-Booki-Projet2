@@ -300,9 +300,9 @@ li {
 /****** Josef Activité ***********/
 
 .activites-cards {
+    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 
 .activites-cards .card {
@@ -399,7 +399,13 @@ li {
     .mise-forme-filtre .bouton {
         margin-right: 10px;
     }
-}
+
+
+/****** Josef Footer tablette ***********/
+.footer {
+    padding-left: 30px;
+    padding-right: 150px;
+    }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
