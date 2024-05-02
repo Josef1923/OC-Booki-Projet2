@@ -97,6 +97,7 @@ li {
 
 .trouvez-hebergement h1 {
     margin-bottom: 10px;
+    font-size: 1.42em;
 }
 
 .trouvez-hebergement p {
@@ -111,8 +112,8 @@ li {
 
 .location-dot {
     display: flex;
-    width: 265px;
-    height: 45px;
+    width: 250px;
+    height: 50px;
     background-color: #F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -120,13 +121,13 @@ li {
 
 .location-dot input {
     color: black;
-    width: 205px;
+    width: 190px;
     text-align: center;  
     outline: none;
     border: none;
     border: 1px solid #F2F2F2;   
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .fa-location-dot {
@@ -139,10 +140,10 @@ li {
     background-color: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
-    height: 45px;
-    width: 160px;
+    height: 50px;
+    width: 140px;
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 /****** Josef Barre Filtre ***********/
@@ -150,7 +151,12 @@ li {
 .filtre {
     display: flex;
     align-items: center;
-    margin: 20px 0px 20px 0px;
+    margin: 25px 0px 20px 0px;
+}
+
+.filtre p {
+    font-size: 1.1em;
+    font-weight: 600;
 }
 
 .mise-forme-filtre {   
@@ -164,7 +170,7 @@ li {
 .mise-forme-filtre button {
     background-color: white;
     border: 3px solid #F2F2F2;
-    font-size: larger;
+    font-size: 1.1em;
     font-weight: 600;
     height: 50px;
     border-radius: 30px;
@@ -183,6 +189,7 @@ li {
     border: 2px solid #F2F2F2;
     border-radius: 50%; 
     padding: 10px 15px;
+    margin-bottom: 5px;
   }
 
 /****** Hebergements And Populaires ***********/
@@ -377,6 +384,10 @@ li {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+/****** Josef Barre Filtre tablette ***********/
+    .filtre {
+      
     }
 }
 
