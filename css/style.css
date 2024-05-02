@@ -247,9 +247,11 @@ li {
     margin: 0;
 }
 
-.option-afficher-plus h3 {
+.option-afficher-plus p {
     margin-bottom: 0;
     padding-top: 12px;
+    font-size: 1.1em;
+    font-weight: 600;
 }
 
 /****** Populaires ***********/
