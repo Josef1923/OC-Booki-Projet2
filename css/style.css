@@ -423,12 +423,50 @@ li {
     }
 
 /****** Josef Footer tablette ***********/
-.footer {
-    padding-left: 30px;
-    padding-right: 150px;
+    .footer {
+         padding-left: 30px;
+         padding-right: 150px;
     }
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+
+    .main-container {
+        padding: 0 0;
+    }
+
+/****** Josef Header phone ***********/
+    header {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .links ul {        
+        padding: 0;
+        margin-top: 30px;    
+        text-align: center; 
+        display: flex;
+        gap: 0;
+         
+    }
+
+    .links li {
+        font-size: 1.2em;  
+        width: 100%;
+        border-bottom: solid #F2F2F2;
+        padding-bottom: 30px;
+        
+    }
+
+    .links ul li a:hover {
+        border-top: none;
+    }
+    
+    .links li:hover {
+        border-bottom: solid #0065FC;
+    }
 }
