@@ -300,7 +300,6 @@ li {
 /****** Josef Activité ***********/
 
 .activites-cards {
-    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     
@@ -387,7 +386,18 @@ li {
     }
 /****** Josef Barre Filtre tablette ***********/
     .filtre {
-      
+      display:flex;
+      flex-direction: column;
+      align-items: flex-start;  
+      margin-top:5px;    
+    }
+
+    .mise-forme-filtre {   
+        margin: 5px 0; 
+    }
+
+    .mise-forme-filtre .bouton {
+        margin-right: 10px;
     }
 }
 
