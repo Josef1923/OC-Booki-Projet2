@@ -351,8 +351,10 @@ li {
     padding-right: 320px;
 }
 
-.footer h3 {
+.footer p {
     margin-bottom: 0;
+    font-size: 1.1em;
+    font-weight: 600;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -390,6 +392,8 @@ li {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+
 /****** Josef Barre Filtre tablette ***********/
     .filtre {
       display:flex;
@@ -407,14 +411,21 @@ li {
     }
 
 /****** Josef Footer activité ***********/
-
+    .activites-cards .card {
+        padding: 0;
+        height: 300px;    
+    }  
+    
+    .activites-cards img {
+        height: 78%;
+    }
 
 /****** Josef Footer tablette ***********/
 .footer {
     padding-left: 30px;
     padding-right: 150px;
     }
-
+}
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
