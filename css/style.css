@@ -305,10 +305,13 @@ li {
     flex-wrap: wrap;    
 }
 
+.activites-cards a {
+    width: 22%;   
+}
+
 .activites-cards .card {
-    width: 290px;
-    height: 450px;
     padding: 0;
+    height: 450px;    
 }
 
 .activites-cards img {
@@ -327,6 +330,8 @@ li {
     padding: 30px;
 }
 
+
+
 /****** Josef Footer ***********/
 .footer li {
     padding: 5px;
@@ -336,6 +341,7 @@ li {
     padding-left: 0;
     margin-top: 5px;
 }
+
 .footer {
     display: flex;
     flex-direction: row;
