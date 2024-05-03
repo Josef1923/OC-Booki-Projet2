@@ -91,22 +91,22 @@ li {
 
 /****** Josef Trouver votre hébergement + Bouton de recherche***********/
 
-.trouvez-hebergement {
+.find-accomodation {
     padding-top: 20px;    
 }
 
-.trouvez-hebergement h1 {
+.find-accomodation h1 {
     margin-bottom: 10px;
     font-size: 1.42em;
 }
 
-.trouvez-hebergement p {
+.find-accomodation p {
    font-size: 1.1em;
    margin-top: 0;
    margin-bottom: 35px;
 }
 
-.bouton-rechercher {
+.search-button {
    display: flex;
 }
 
@@ -135,7 +135,7 @@ li {
     margin:auto;      
 }
 
-.bouton-envoyer input {
+.submit-button input {
     color: white;
     background-color: #0065FC;
     border: 1px solid #0065FC;
@@ -148,18 +148,18 @@ li {
 
 /****** Josef Barre Filtre ***********/
 
-.filtre {
+.filter {
     display: flex;
     align-items: center;
     margin: 25px 0px 20px 0px;
 }
 
-.filtre p {
+.filter p {
     font-size: 1.1em;
     font-weight: 600;
 }
 
-.mise-forme-filtre {   
+.mise-forme-filter {   
     display: flex;
     width: 52%;
     margin-left: 10px ;
@@ -167,7 +167,7 @@ li {
 }
     
 
-.mise-forme-filtre button {
+.mise-forme-filter button {
     background-color: white;
     border: 3px solid #F2F2F2;
     font-size: 1.1em;
@@ -177,11 +177,11 @@ li {
     padding: 0px 20px;
 }
 
-.bouton {
+.filter-button {
     white-space: nowrap;
 }
 
-.mise-forme-filtre button:hover {
+.mise-forme-filter button:hover {
     background-color: #DEEBFF;
 }
 
@@ -301,34 +301,34 @@ li {
 
 /****** Josef Activité ***********/
 
-.activites-cards {
+.activities-cards {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;    
 }
 
-.activites-cards a {
+.activities-cards a {
     width: 22%;   
 }
 
-.activites-cards .card {
+.activities-cards .card {
     padding: 0;
     height: 450px;    
 }
 
-.activites-cards img {
+.activities-cards img {
     width: 100%;
     height: 88%;
     border-top-right-radius: 6%;
     border-top-left-radius: 6%;
 }
 
-.activites-cards .card-content {
+.activities-cards .card-content {
     margin-left: 15px;
     
 }
 
-.activites-a-marseille {
+.activities-at-marseille {
     padding: 30px;
 }
 
@@ -397,28 +397,28 @@ li {
 
 
 /****** Josef Barre Filtre tablette ***********/
-    .filtre {
+    .filter {
       display:flex;
       flex-direction: column;
       align-items: flex-start;  
       margin-top:5px;    
     }
 
-    .mise-forme-filtre {   
+    .mise-forme-filter {   
         margin: 5px 0; 
     }
 
-    .mise-forme-filtre .bouton {
+    .mise-forme-filter .bouton {
         margin-right: 10px;
     }
 
 /****** Josef Footer activité ***********/
-    .activites-cards .card {
+    .activities-cards .card {
         padding: 0;
         height: 300px;    
     }  
     
-    .activites-cards img {
+    .activities-cards img {
         height: 78%;
     }
 
@@ -470,14 +470,14 @@ li {
         border-bottom: solid #0065FC;
     }
 /****** Josef barre de recherche phone ***********/  
-    .bouton-rechercher {
+    .Search-button {
         justify-content: center;
     }
 
 
 
 /****** Josef Filtre phone ***********/    
-    .mise-forme-filtre {
+    .mise-forme-filter {
         width: 100%;
         display: grid;
         grid-template-columns: 330px 330px;
@@ -485,14 +485,13 @@ li {
         
     }
 
-    .mise-forme-filtre .bouton {
-        margin-right: 0;
-        align-content: center;
+    .mise-forme-filter .filter-button {
+        margin-right: 0;  
         display: flex;
-        justify-content: center;
+        
     }
 
-    .mise-forme-filtre button {
+    .mise-forme-filter button {
         margin-bottom: 15px;
         width: 90%;
     }
