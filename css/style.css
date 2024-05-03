@@ -469,4 +469,31 @@ li {
     .links li:hover {
         border-bottom: solid #0065FC;
     }
+/****** Josef barre de recherche phone ***********/  
+    .bouton-rechercher {
+        justify-content: center;
+    }
+
+
+
+/****** Josef Filtre phone ***********/    
+    .mise-forme-filtre {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 330px 330px;
+        margin-left: 0 ;
+        
+    }
+
+    .mise-forme-filtre .bouton {
+        margin-right: 0;
+        align-content: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .mise-forme-filtre button {
+        margin-bottom: 15px;
+        width: 90%;
+    }
 }
