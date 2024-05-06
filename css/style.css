@@ -461,8 +461,7 @@ li {
         font-size: 1.2em;  
         width: 100%;
         border-bottom: solid #F2F2F2;
-        padding-bottom: 30px;
-        
+        padding-bottom: 30px;       
     }
 
     .links ul li a:hover {
@@ -518,7 +517,7 @@ li {
         width: 90%;
     }
 
-/****** hebergement ***********/   
+/****** Josef hebergement phone***********/   
 
     .hebergements-and-populaires {
         flex-direction: column-reverse;
@@ -538,6 +537,7 @@ li {
 
     .populaires-cards .card {
         height: 110px;
+        margin-top: 15px;
     }
 
     .populaires-cards img {
@@ -545,4 +545,33 @@ li {
         width: 35%;
     }
 
+    .hebergements-and-populaires .hebergements {
+        background-color: initial;
+    }
+
+    .hebergements-and-populaires .marseille-cards {
+        flex-direction: column;
+    }
+
+    .marseille-cards .card {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+/****** Josef Activités phone ***********/ 
+
+    .activities-at-marseille .activities-cards{
+        flex-direction: column;
+    }
+
+    .activities-at-marseille a {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+/****** Josef footer phone ***********/ 
+
+    .footer {
+        flex-direction: column;
+    }
 }
