@@ -475,8 +475,6 @@ li {
 /****** Josef barre de recherche phone ***********/  
     form {
         display: flex;
-        justify-content: space-around;
-        
     }
 
     .submit-button input {
@@ -520,7 +518,31 @@ li {
         width: 90%;
     }
 
-    
+/****** hebergement ***********/   
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+       border-radius: initial;
     }
     
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires-cards .card {
+        height: 110px;
+    }
+
+    .populaires-cards img {
+        height: 100%;
+        width: 35%;
+    }
+
 }
