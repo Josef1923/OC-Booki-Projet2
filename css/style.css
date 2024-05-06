@@ -146,6 +146,10 @@ li {
     font-size: 1.1em;
 }
 
+.submit-button button {
+    display: none;
+}
+
 /****** Josef Barre Filtre ***********/
 
 .filter {
@@ -225,8 +229,7 @@ li {
 .marseille-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;    
-       
+    justify-content: space-between;  
 }
 
 .marseille-cards .card-content {
@@ -429,7 +432,7 @@ li {
     }
 }
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 767.98px){
 
     .main-container {
         padding: 0 0;
@@ -470,11 +473,32 @@ li {
         border-bottom: solid #0065FC;
     }
 /****** Josef barre de recherche phone ***********/  
-    .Search-button {
-        justify-content: center;
+    form {
+        display: flex;
+        justify-content: space-around;
+        
     }
 
+    .submit-button input {
+        display: none;
+    }
 
+    .submit-button button {
+        display: block;
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+        background-color: #0065FC;
+        border: none;
+        box-shadow: 0px 5px #F2F2F2;
+    }
+
+    .submit-button i {
+        color: white;
+        font-size: 1.1em;
+    }
+
+   
 
 /****** Josef Filtre phone ***********/    
     .mise-forme-filter {
@@ -495,4 +519,8 @@ li {
         margin-bottom: 15px;
         width: 90%;
     }
+
+    
+    }
+    
 }
