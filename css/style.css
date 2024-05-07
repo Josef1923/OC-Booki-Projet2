@@ -547,6 +547,10 @@ li {
         width: 35%;
     }
 
+    .populaires {
+        margin: 0;
+    }
+    
     .hebergements-and-populaires .hebergements {
         background-color: initial;
     }
@@ -555,10 +559,15 @@ li {
         flex-direction: column;
     }
 
-    .marseille-cards .card {
-        width: 100%;
+    .marseille-cards .card { 
         margin-top: 15px;
+        box-shadow: 10px 10px #F2F2F2;
     }
+
+    .marseille-cards {
+        display : block;
+    }
+
 
 /****** Josef Activités phone ***********/ 
 
