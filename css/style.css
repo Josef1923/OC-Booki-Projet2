@@ -214,9 +214,12 @@ li {
 }
 
 .marseille-cards .card {
-    width: 240px;
     height: 200px;
     margin-top: 33px;
+}
+
+.marseille-cards a {
+    width: calc(33.33% - 20px);
 }
 
 .marseille-cards img {
@@ -229,7 +232,7 @@ li {
 .marseille-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
 .marseille-cards .card-content {
@@ -310,7 +313,7 @@ li {
 }
 
 .activities-cards a {
-    width: 22%;   
+    width: calc(25% - 20px); 
     
 }
 
