@@ -499,22 +499,21 @@ li {
 
 /****** Josef Filtre phone ***********/    
     .mise-forme-filter {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 330px 330px;
-        margin-left: 0 ;
-        
-    }
-
-    .mise-forme-filter .filter-button {
-        margin-right: 0;  
         display: flex;
-        
+        flex-wrap: wrap;    
+        gap: 10px;  
     }
 
-    .mise-forme-filter button {
-        margin-bottom: 15px;
-        width: 90%;
+     .filter-button {
+        width: calc(50% - 5px);
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .filter {
+        align-items: stretch;
     }
 
 /****** Josef hebergement phone***********/   
