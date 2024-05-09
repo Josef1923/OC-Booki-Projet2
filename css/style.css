@@ -213,7 +213,6 @@ li {
     width: 65%;    
     display: flex;
     flex-direction: column;
-    
     justify-content: space-between;
 }
 
@@ -369,6 +368,7 @@ li {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -377,6 +377,14 @@ li {
         width: 100%;
     }
 
+    .hebergements h2 {
+        margin-bottom: 30px;
+    }
+
+    .hebergements p {
+        margin-top: 30px;
+    }
+    
     .populaires {
         width: 100%;
         margin-top: 50px;
