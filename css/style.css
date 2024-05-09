@@ -211,10 +211,10 @@ li {
 /****** Josef Hebergements ***********/
 .hebergements {
     width: 65%;    
-}
-
-.marseille-cards .card {
-    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
 }
 
 .marseille-cards a {
@@ -231,11 +231,7 @@ li {
 .marseille-cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.marseille-cards .card {
-    margin-top: 33px;
+    gap: 30px;
 }
 
 .marseille-cards .card-content {
@@ -257,12 +253,11 @@ li {
 }
 
 .option-afficher-plus p {
-    margin-bottom: 0;
-    padding-top: 12px;
+    margin-bottom: 0px;
     font-size: 1.1em;
     font-weight: 600;
 }
-    
+
 
 /****** Populaires ***********/
 .populaires {
