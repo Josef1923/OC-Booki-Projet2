@@ -314,7 +314,6 @@ li {
 
 .activities-cards a {
     width: calc(25% - 20px); 
-    
 }
 
 .activities-cards .card {
@@ -433,6 +432,7 @@ li {
          padding-left: 30px;
          padding-right: 150px;
     }
+
 }
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px){
@@ -491,6 +491,8 @@ li {
         background-color: #0065FC;
         border: none;
         box-shadow: 0px 5px #F2F2F2;
+        margin-left: -25px;
+        
     }
 
     .submit-button i {
@@ -498,8 +500,23 @@ li {
         font-size: 1.1em;
     }
 
-   
+    .search-button,
+    .location-dot {
+        width: 100%;
+    }
 
+    .search-button input {
+        flex-grow: 1;
+        border-right: none;
+    }
+
+    .location-dot i {
+        width: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+   
 /****** Josef Filtre phone ***********/    
     .mise-forme-filter {
         display: flex;
@@ -585,4 +602,5 @@ li {
     .footer {
         flex-direction: column;
     }
+
 }
