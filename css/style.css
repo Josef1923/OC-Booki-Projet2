@@ -617,13 +617,21 @@ li {
 
 /****** Josef Activités phone ***********/ 
 
-    .activities-at-marseille .activities-cards{
+    .activities-at-marseille .activities-cards {
         flex-direction: column;
     }
 
     .activities-at-marseille a {
         width: 100%;
         margin-top: 15px;
+    }
+
+    .activities-at-marseille .card {
+        height: 150px;
+    }
+
+    .activities-at-marseille .card-title {
+        margin-top: 0;
     }
 
 /****** Josef footer phone ***********/ 
