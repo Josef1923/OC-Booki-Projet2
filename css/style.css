@@ -324,18 +324,23 @@ li {
 
 .activities-cards img {
     width: 100%;
-    height: 88%;  
+    height: 88%; 
 }
 
 .activities-cards .card-content {
-    margin-left: 15px;
     
+    height: 50px;
 }
 
 .activities-at-marseille {
     padding: 30px;
 }
 
+.activities-cards .card-content {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
 /****** Josef Footer ***********/
 .footer li {
     padding-bottom: 10px;
