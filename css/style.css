@@ -222,7 +222,7 @@ li {
 
 .marseille-cards img {
     width: 100%;
-    height: 110px;
+    height: 124px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -617,23 +617,22 @@ li {
 
 /****** Josef Activités phone ***********/ 
 
-    .activities-at-marseille .activities-cards {
-        flex-direction: column;
-    }
+.activities-at-marseille .activities-cards {
+    flex-direction: column;
+}
 
-    .activities-at-marseille a {
-        width: 100%;
-        margin-top: 15px;
-    }
+.activities-at-marseille a {
+    width: 100%;
+    margin-top: 15px;
+}
 
-    .activities-at-marseille .card {
-        height: 150px;
-    }
+.activities-at-marseille .card {
+    height: 200px;
+}
 
-    .activities-at-marseille .card-title {
-        margin-top: 0;
-    }
-
+.activities-at-marseille img {
+    height: 141px;
+}
 /****** Josef footer phone ***********/ 
 
     .footer {
