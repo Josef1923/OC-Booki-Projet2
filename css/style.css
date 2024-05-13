@@ -218,6 +218,7 @@ li {
 
 .marseille-cards a {
     width: calc(33.33% - 20px);
+    height: 207px;
 }
 
 .marseille-cards img {
