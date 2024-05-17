@@ -186,6 +186,7 @@ li {
 
 .mise-forme-filter button:hover {
     background-color: #DEEBFF;
+    cursor: pointer;
 }
 
 .fa-info {
